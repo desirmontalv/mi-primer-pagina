@@ -107,3 +107,7 @@ button:hover {
     width: 0;
   }
 }
+
+.hero {
+  position: relative;
+}
