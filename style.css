@@ -111,3 +111,7 @@ button:hover {
 .hero {
   position: relative;
 }
+
+.bar{
+transition: width 2s;
+}
