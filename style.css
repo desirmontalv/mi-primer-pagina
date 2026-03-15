@@ -142,3 +142,31 @@ button {
 button:hover {
   background-color: #555;
 }
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.bar {
+  color: white;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  animation: grow 2s ease-out;
+}
+
+@keyframes grow {
+  from {
+    width: 0;
+  }
+}
