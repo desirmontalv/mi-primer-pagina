@@ -1,23 +1,19 @@
 h1 {
   color: #f4a6c1;
   font-family: "Trebuchet MS", sans-serif;
-  font-size: 150px;
-  padding:40px 20px 40px 20px; background:beige;
+  font-size: 100px;
+  padding:40px 20px 40px 20px; background:rgb(235, 235, 220);
 }
 p{ font-size: 25px;
  font-style:italic;}
-
-img{ border-radius: 100px; }
 
 .caption{
   text-align: center;
   font-size:110px
 }
 .subcaption {
-  font-size: 80px;
+  font-size: 50px;
 }
-.bundle {
-  font-family:"Trebuchet MS", sans-serif
   
 }
 h2{
@@ -27,5 +23,58 @@ h2{
 #test{
   text-align:center;
   
+}
+
+.bar{
+  height:30px;
+  color:white;
+  padding-left:10px;
+  margin-bottom:10px;
+  border-radius:5px;
+}
+
+.oily{
+  width:30%;
+  background-color:#ff7a7a;
+}
+
+.dry{
+  width:25%;
+  background-color:#f4c27a;
+}
+
+.combination{
+  width:35%;
+  background-color:#7ac7c4;
+}
+
+.sensitive{
+  width:10%;
+  background-color:#c77dff;
+}
+
+.stats-title{
+  font-size:36px;
+  text-align:center;
+  color:#d46a92;
+  background-color:#f3f3f3;
+  padding:20px;
+  border-radius:12px;
+  letter-spacing:2px;
+  font-weight:600;
+  border-bottom:3px solid #f4b6c2;
+}
+
+button{
+background-color:#f4b6c2;
+border:none;
+padding:12px 20px;
+margin:10px;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background-color:#e89ab0;
 }
     
