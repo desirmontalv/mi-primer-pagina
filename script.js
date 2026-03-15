@@ -20,4 +20,26 @@ document.getElementById("result").innerText =
 "You may have Normal Skin. Maintain a gentle routine.";
 }
 
+function checkSkin(type) {
+
+  let message = "";
+
+  if(type === "dry"){
+    message = "You may have dry skin.";
+  }
+
+  if(type === "oily"){
+    message = "You may have oily skin.";
+  }
+
+  if(type === "combination"){
+    message = "You may have combination skin.";
+  }
+
+  if(type === "normal"){
+    message = "You may have normal skin.";
+  }
+
+  document.getElementById("result").innerHTML = message;
+
 }
