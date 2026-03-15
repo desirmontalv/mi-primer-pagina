@@ -2,145 +2,31 @@ h1 {
   color: #f4a6c1;
   font-family: "Trebuchet MS", sans-serif;
   font-size: 100px;
-  padding:40px 20px 40px 20px; background:rgb(235, 235, 220);
+  padding: 40px 20px 40px 20px;
+  background: rgb(235, 235, 220);
 }
-p{ font-size: 25px;
- font-style:italic;}
 
-.caption{
-  text-align: center;
-  font-size:110px
+p {
+  font-size: 25px;
+  font-style: italic;
 }
+
+.caption {
+  text-align: center;
+  font-size: 110px;
+}
+
 .subcaption {
   font-size: 50px;
 }
-  
-}
-h2{
+
+h2 {
   font-size: 40px;
-  color: #f4a6c1
-}
-#test{
-  text-align:center;
-  
+  color: #f4a6c1;
 }
 
-.bar{
-  height:30px;
-  color:white;
-  padding-left:10px;
-  margin-bottom:10px;
-  border-radius:5px;
-}
-
-.oily{
-  width:30%;
-  background-color:#ff7a7a;
-}
-
-.dry{
-  width:25%;
-  background-color:#f4c27a;
-}
-
-.combination{
-  width:35%;
-  background-color:#7ac7c4;
-}
-
-.sensitive{
-  width:10%;
-  background-color:#c77dff;
-}
-
-.stats-title{
-  font-size:36px;
-  text-align:center;
-  color:#d46a92;
-  background-color:#f3f3f3;
-  padding:20px;
-  border-radius:12px;
-  letter-spacing:2px;
-  font-weight:600;
-  border-bottom:3px solid #f4b6c2;
-}
-
-button{
-background-color:#f4b6c2;
-border:none;
-padding:12px 20px;
-margin:10px;
-border-radius:8px;
-cursor:pointer;
-}
-
-button:hover{
-background-color:#e89ab0;
-}
-img {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-}
-
-body {
-  margin: 0;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.chart {
-  max-width: 600px;
-  margin: auto;
-}
-
-.bar {
-  color: white;
-  padding: 8px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
-
-.oily {
-  background-color: #4CAF50;
-  width: 30%;
-}
-
-.dry {
-  background-color: #2196F3;
-  width: 25%;
-}
-
-.combination {
-  background-color: #FF9800;
-  width: 35%;
-}
-
-.sensitive {
-  background-color: #E91E63;
-  width: 10%;
-}
-
-button {
-  padding: 10px 15px;
-  margin: 5px;
-  border: none;
-  border-radius: 5px;
-  background-color: #333;
-  color: white;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #555;
+#test {
+  text-align: center;
 }
 
 body {
@@ -157,12 +43,63 @@ img {
   margin: auto;
 }
 
+.chart {
+  max-width: 600px;
+  margin: auto;
+}
+
 .bar {
+  height: 30px;
   color: white;
-  padding: 8px;
+  padding-left: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
   animation: grow 2s ease-out;
+}
+
+.oily {
+  width: 30%;
+  background-color: #ff7a7a;
+}
+
+.dry {
+  width: 25%;
+  background-color: #f4c27a;
+}
+
+.combination {
+  width: 35%;
+  background-color: #7ac7c4;
+}
+
+.sensitive {
+  width: 10%;
+  background-color: #c77dff;
+}
+
+.stats-title {
+  font-size: 36px;
+  text-align: center;
+  color: #d46a92;
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-bottom: 3px solid #f4b6c2;
+}
+
+button {
+  background-color: #f4b6c2;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e89ab0;
 }
 
 @keyframes grow {
