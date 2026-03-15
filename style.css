@@ -82,3 +82,7 @@ img {
   height: 100vh;
   object-fit: cover;
 }
+
+body {
+  margin: 0;
+}
