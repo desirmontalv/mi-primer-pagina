@@ -43,3 +43,25 @@ function checkSkin(type) {
   document.getElementById("result").innerHTML = message;
 
 }
+
+  function checkSkin(type){
+
+let result = document.getElementById("result");
+
+if(type === "dry"){
+result.innerHTML = "Your skin type may be Dry Skin.";
+}
+
+if(type === "oily"){
+result.innerHTML = "Your skin type may be Oily Skin.";
+}
+
+if(type === "combination"){
+result.innerHTML = "Your skin type may be Combination Skin.";
+}
+
+if(type === "normal"){
+result.innerHTML = "Your skin type may be Normal Skin.";
+}
+
+}
