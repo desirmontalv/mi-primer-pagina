@@ -3,35 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skin Care Products</title>
+  <title>Skin Type Survey</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="caption">Skin Care Products</h1>
-  <p class="subcaption"><strong>Routine PM</strong></p>
-
-  <img src="https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg" alt="Rutina facial" width="300" height="200">
-  <img src="https://hips.hearstapps.com/hmg-prod/images/instant-skin-care-results-main-1522856094.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" alt="Products" width="300" height="200">
-  <img src="https://organicskin.com.au/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-20-at-10.47.28-AM.jpeg" alt="Product bundle" width="300" height="200">
-  <img src="https://fotopiel.com/cdn/shop/articles/fotopiel-rutina-de-skincare-cuidado-facial.jpg?v=1681237955&width=750" width="300" height="200"
+  <h2 class="stats-title">Skin Type Insights</h2>
   <br>
+<img src="https://gunillaofsweden.com/wp-content/uploads/2017/08/skin-types-21.jpg">
+  <p class="subcaption"><strong>Based on a small survey of 50 participants</strong></p>
+<h2>Skin Type Survey Results:</h2>
 
-  <p class="bundle"><strong>Products bundle:</strong></p>
-  <ul>
-    <li>Facial Soap 🧼</li>
-    <li>Toner 💧</li>
-    <li>Serum 🍯</li>
-    <li>Moisturizer 🧴</li>
-    <li>SPF 50 ☀️</li>
-  </ul>
+<div class="chart">
+  <p>Oily Skin</p>
+  <div class="bar oily">30%</div>
 
-  <p><strong>Each product is essential for the morning routine.</strong></p>
-  <p>For more information please click the link below:</p>
-  <a href="https://organicskin.com.au/why-organic-skin-care-products-are-better-for-your-skin/">Organic Products</a><br><br>
+  <p>Dry Skin</p>
+  <div class="bar dry">25%</div>
 
-  <img src="https://ahoydesigns.co.uk/wp-content/uploads/2018/07/vegan-cruelty-free-hero-1.jpg" width="500" height="200">
-<h2>Began the test to determine your type of skin.</h2>
-<button class="test">START</button>
+  <p>Combination Skin</p>
+  <div class="bar combination">35%</div>
+
+  <p>Sensitive Skin</p>
+  <div class="bar sensitive">10%</div>
+</div>
+
+<h2>Find Your Skin Type</h2>
+
+<p>How does your skin feel after washing?</p>
+
+<button onclick="checkSkin('dry')">Tight and dry</button>
+<button onclick="checkSkin('oily')">Shiny and oily</button>
+<button onclick="checkSkin('combination')">Oily in the T-zone</button>
+<button onclick="checkSkin('normal')">Balanced and comfortable</button>
+
+<p id="result"></p>
   <script src="script.js"></script>
 </body>
 </html>
